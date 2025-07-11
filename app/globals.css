@@ -1,0 +1,53 @@
+.baslik{
+  color:black;
+  text-align: center;
+}
+.giris{
+  color:black;
+  text-align: center;
+}
+.kutucuk{
+  display: grid;
+  grid-template-columns: repeat(4, 60px);
+  gap: 5px;
+  justify-content: center;
+  margin-top: 20px;
+}
+.tarlacik{
+  width: 60px;
+  height: 60px;
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: bisque;
+  cursor: pointer;
+}
+.btn{
+  color:black;
+  background-color:bisque;
+  gap: 10px;
+}
+.oyunAlani {
+ display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.btn2 {
+  display: flex;
+  gap: 10px;
+}
+.loginWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+.loginContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px; /* Inputlar arası boşluk */
+  margin-top: 30px;
+}
